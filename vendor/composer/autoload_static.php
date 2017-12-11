@@ -54,6 +54,8 @@ class ComposerStaticInit465c1e1c6b5e69c20177e65e88347a09
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
+            'Spatie\\LaravelImageOptimizer\\' => 29,
+            'Spatie\\ImageOptimizer\\' => 22,
         ),
         'R' => 
         array (
@@ -189,6 +191,14 @@ class ComposerStaticInit465c1e1c6b5e69c20177e65e88347a09
         'Symfony\\Component\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
+        ),
+        'Spatie\\LaravelImageOptimizer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/laravel-image-optimizer/src',
+        ),
+        'Spatie\\ImageOptimizer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/spatie/image-optimizer/src',
         ),
         'Ramsey\\Uuid\\' => 
         array (
@@ -359,6 +369,7 @@ class ComposerStaticInit465c1e1c6b5e69c20177e65e88347a09
         'App\\Http\\Controllers\\QuestionController' => __DIR__ . '/../..' . '/app/Http/Controllers/QuestionController.php',
         'App\\Http\\Controllers\\RedirectController' => __DIR__ . '/../..' . '/app/Http/Controllers/RedirectController.php',
         'App\\Http\\Controllers\\ReviewController' => __DIR__ . '/../..' . '/app/Http/Controllers/ReviewController.php',
+        'App\\Http\\Controllers\\ServiceController' => __DIR__ . '/../..' . '/app/Http/Controllers/ServiceController.php',
         'App\\Http\\Controllers\\VoteController' => __DIR__ . '/../..' . '/app/Http/Controllers/VoteController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\EncryptCookies' => __DIR__ . '/../..' . '/app/Http/Middleware/EncryptCookies.php',
@@ -3123,6 +3134,22 @@ class ComposerStaticInit465c1e1c6b5e69c20177e65e88347a09
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
+        'Spatie\\ImageOptimizer\\DummyLogger' => __DIR__ . '/..' . '/spatie/image-optimizer/src/DummyLogger.php',
+        'Spatie\\ImageOptimizer\\Image' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Image.php',
+        'Spatie\\ImageOptimizer\\Optimizer' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Optimizer.php',
+        'Spatie\\ImageOptimizer\\OptimizerChain' => __DIR__ . '/..' . '/spatie/image-optimizer/src/OptimizerChain.php',
+        'Spatie\\ImageOptimizer\\OptimizerChainFactory' => __DIR__ . '/..' . '/spatie/image-optimizer/src/OptimizerChainFactory.php',
+        'Spatie\\ImageOptimizer\\Optimizers\\BaseOptimizer' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Optimizers/BaseOptimizer.php',
+        'Spatie\\ImageOptimizer\\Optimizers\\Gifsicle' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Optimizers/Gifsicle.php',
+        'Spatie\\ImageOptimizer\\Optimizers\\Jpegoptim' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Optimizers/Jpegoptim.php',
+        'Spatie\\ImageOptimizer\\Optimizers\\Optipng' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Optimizers/Optipng.php',
+        'Spatie\\ImageOptimizer\\Optimizers\\Pngquant' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Optimizers/Pngquant.php',
+        'Spatie\\ImageOptimizer\\Optimizers\\Svgo' => __DIR__ . '/..' . '/spatie/image-optimizer/src/Optimizers/Svgo.php',
+        'Spatie\\LaravelImageOptimizer\\Exceptions\\InvalidConfiguration' => __DIR__ . '/..' . '/spatie/laravel-image-optimizer/src/Exceptions/InvalidConfiguration.php',
+        'Spatie\\LaravelImageOptimizer\\Facades\\ImageOptimizer' => __DIR__ . '/..' . '/spatie/laravel-image-optimizer/src/Facades/ImageOptimizer.php',
+        'Spatie\\LaravelImageOptimizer\\ImageOptimizerServiceProvider' => __DIR__ . '/..' . '/spatie/laravel-image-optimizer/src/ImageOptimizerServiceProvider.php',
+        'Spatie\\LaravelImageOptimizer\\Middlewares\\OptimizeImages' => __DIR__ . '/..' . '/spatie/laravel-image-optimizer/src/Middlewares/OptimizeImages.php',
+        'Spatie\\LaravelImageOptimizer\\OptimizerChainFactory' => __DIR__ . '/..' . '/spatie/laravel-image-optimizer/src/OptimizerChainFactory.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\Command\\Command' => __DIR__ . '/..' . '/symfony/console/Command/Command.php',
         'Symfony\\Component\\Console\\Command\\HelpCommand' => __DIR__ . '/..' . '/symfony/console/Command/HelpCommand.php',
