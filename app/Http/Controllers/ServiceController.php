@@ -16,4 +16,12 @@ class ServiceController extends Controller
         Auth::logout();
         return redirect()->route('page');
     }
+
+    public function toHomePage(){
+        return redirect()->route('page');
+    }
+
+    public function admin(){
+        return redirect()->route('admin',['method'=>'index','lang'=>env('DEFAULT_LANG')]);
+    }
 }

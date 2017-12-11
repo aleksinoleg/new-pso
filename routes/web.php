@@ -95,9 +95,7 @@ Auth::routes();
 Route::get('/logout', 'ServiceController@logout');
 
 if(env('REGISTRATION')==false){
-    Route::get('/register',function (){
-        return redirect()->route('page');
-    })->name('register');
+    Route::get('/register','ServiceController@toHomePage')->name('register');
 }
 
 /**
@@ -117,14 +115,9 @@ Route::group(['prefix' => 'admin','middleware' => 'auth'], function () {
 /**
  * Redirect Routes
  */
-Route::get('/admin',function (){
-    return redirect()->route('admin',['method'=>'index','lang'=>env('DEFAULT_LANG')]);
-});
-//Route::get('/'.env('DEFAULT_LANG').'/',function (){
-//
-//    dd($_SERVER['REQUEST_URI']);
-//    //return redirect()->route('page');
-//});
+Route::get('/admin','ServiceController@admin');
+
+Route::get('/'.env('DEFAULT_LANG').'/','ServiceController@toHomePage');
 
 /**
  * Routes for Clients
