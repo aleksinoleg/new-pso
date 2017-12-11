@@ -58,10 +58,7 @@ Route::post('/admin/customer_auth_shipping', 'CustomerController@customer_auth_s
 Route::post('/admin/customer_register', 'CustomerController@register');
 Route::post('/admin/customer_register_shipping', 'CustomerController@register_shipping');
 
-Route::get('/admin/customer_logout', function(){
-    session()->forget('customer');
-    return redirect()->back();
-});
+Route::get('/admin/customer_logout', 'ServiceController@customer_logout');
 
 Route::post('/admin/forget_pass', 'CustomerController@forget_pass');
 Route::post('/admin/forget_pass_shipping', 'CustomerController@forget_pass_shipping');
@@ -96,14 +93,10 @@ Route::post('/admin/page-to-page', 'PageController@page_to_page');
 
 Auth::routes();
 
-Route::get('/logout',function (){
-    \Illuminate\Support\Facades\Auth::logout();
-    return redirect()->route('page');
-});
+Route::get('/logout', 'ServiceController@logout');
+
 if(env('REGISTRATION')==false){
-    Route::get('/register',function (){
-        return redirect()->route('page');
-    })->name('register');
+    Route::get('/register','ServiceController@toHomePage')->name('register');
 }
 
 /**
@@ -123,12 +116,9 @@ Route::group(['prefix' => 'admin','middleware' => 'auth'], function () {
 /**
  * Redirect Routes
  */
-Route::get('/admin',function (){
-    return redirect()->route('admin',['method'=>'index','lang'=>env('DEFAULT_LANG')]);
-});
-Route::get('/'.env('DEFAULT_LANG').'/',function (){
-    return redirect()->route('page');
-});
+Route::get('/admin','ServiceController@admin');
+
+Route::get('/'.env('DEFAULT_LANG').'/','ServiceController@toHomePage');
 
 /**
  * Routes for Clients
