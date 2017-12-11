@@ -127,5 +127,6 @@ Route::get('/'.env('DEFAULT_LANG').'/','ServiceController@toHomePage');
 Route::get('{lang?}/{url?}', [
     'uses'=>'DispatcherController@index',
     'as'=>'page',
-    'middleware' => ['SendStatistic','SendUniqueUser', 'optimizeImages']
+    'middleware' => ['SendStatistic','SendUniqueUser']
+    // 'middleware' => ['SendStatistic','SendUniqueUser', 'optimizeImages']
 ])->where('lang','^[en||es||it||fr||de||cz||ua||ru]{2}$');
