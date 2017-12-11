@@ -71,7 +71,7 @@ class DispatcherController extends Controller
             'sildenafil-kaufen.de',
             'viagrafurdiefrau.de',
             'krankheits-symptome.net',
-            'new-pso.dev',
+            'new-pso.dew',
         ];
 
         $parent_site = (isset($_SERVER['HTTP_REFERER']))?$_SERVER['HTTP_REFERER']:'//';
