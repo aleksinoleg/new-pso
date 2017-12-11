@@ -1,0 +1,249 @@
+.your_basket_text {
+  color: #0a5a8b;
+  font-family: "Century Gothic Regular Bold";
+  font-size: 30px;
+  top: 13px;
+  left: 25px;
+}
+.soc_item {
+  margin: 0 0 0 15px;
+}
+.hover_dark:hover {
+  -webkit-filter: brightness(75%);
+}
+.prod_prefooter {
+  background: #eaf5fb;
+  margin: 30px 0;
+  padding: 5px;
+  font-size: 16px;
+}
+.free_delivery_text_l1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.free_delivery_text_l2 {
+  margin-top: -5px;
+}
+.result_text_l1 {
+  margin: 0;
+}
+.result_text_l1 span {
+  font-weight: bold;
+  font-size: 24px;
+}
+.local_store_text_l1 {
+  color: #0a5a8b;
+  font-weight: bold;
+}
+.local_store_text {
+  padding-top: 5px;
+  text-align: right;
+}
+.local_store_text_l2 {
+  font-family: "Century Gothic Regular Bold";
+  color: #0a5a8b;
+  font-size: 24px;
+  margin-top: -5px;
+}
+.prod_prefooter_item_hover {
+  height: 5px;
+  background: #0a5a8b;
+  width: 100%;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  display: none;
+}
+.prod_prefooter_item {
+  height: 50px;
+}
+.prod_prefooter_item a {
+  color: #333;
+}
+.prod_prefooter_item:hover .prod_prefooter_item_hover {
+  display: block;
+}
+.cart_table_head {
+  color: #0a5a8b;
+  font-size: 18px;
+  margin: 30px 0;
+  font-weight: bold;
+}
+.cart_unit_price,
+.cart_quantity_basket,
+.cart_dell,
+.cart_subtotal {
+  width: 15%;
+  text-align: center;
+  font-size: 16px;
+}
+.basket_left_section {
+  width: calc(100% - 300px);
+}
+.basket_right_section {
+  width: 300px;
+}
+.cart_prod_name {
+  width: 40%;
+  padding-left: 20px;
+}
+.cart_prod_name_img {
+  margin: 0 10px 0 0;
+}
+.cart_prod_name_text {
+  width: calc(100% - 110px);
+  font-size: 18px;
+  color: #335a07;
+  font-weight: bold;
+}
+.cart_table_row {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 10px;
+}
+.cart_table_row .flex {
+  height: 100px;
+}
+.cart_table_row:last-child {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.quantity_input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #efefef;
+  margin: 0 5px;
+}
+.cart_quantity_basket img {
+  cursor: pointer;
+}
+.basket_right_section {
+  width: 300px;
+  height: auto;
+  background: #0a5c8c;
+  padding-bottom: 20px;
+}
+#review_your_cart {
+  text-align: center;
+  color: #ffc04d;
+  font-family: "Century Gothic Regular Bold";
+  font-size: 22px;
+  margin-top: 20px;
+}
+#quantity_of_products {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+#quantity_of_products_num {
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  text-align: center;
+  margin-top: 5px;
+  padding: 3px;
+  font-size: 18px;
+}
+#promo_l1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 18px;
+}
+#promo_l2 {
+  padding: 0 65px;
+  color: #fff;
+  font-size: 13px;
+  text-align: center;
+}
+#check_promo_code {
+  margin-top: 5px;
+}
+#check_promo_code input {
+  padding: 3px 15px;
+}
+.submit_check_promo_code {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  cursor: pointer;
+}
+.cart_order_total {
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+.cart_order_total #currency,
+.cart_order_total #value {
+  font-family: "Century Gothic Regular Bold";
+  font-size: 26px;
+}
+.submit_proceed_order_text {
+  position: absolute;
+  top: 5px;
+  left: 55px;
+  color: #fff;
+  font-family: "Century Gothic Regular Bold";
+  font-size: 20px;
+  cursor: pointer;
+}
+.submit_proceed_order {
+  cursor: pointer;
+}
+.add_more_prods_l1 {
+  background: #90c1df;
+  height: 15px;
+}
+.add_more_prods_l2 {
+  background: #7497b5;
+  height: 15px;
+}
+.add_more_prods {
+  width: 160px;
+  margin-top: 10px;
+}
+.add_more_prods_text {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.add_more_prods_text a {
+  color: #fff;
+  font-family: "Century Gothic Regular Bold";
+  font-size: 14px;
+}
+.result_text_l2 {
+  margin-top: -5px;
+}
+.code_accepted {
+  color: #fff;
+  font-family: "Century Gothic Regular Bold";
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 43px;
+}
+.code_incorrect {
+  border: 2px solid #f00;
+  border-radius: 5px;
+  padding: 5px;
+}
+.code_incorrect img {
+  top: 12px;
+  right: 7px;
+}
+.dis_expl {
+  color: #f00;
+  text-decoration: none;
+  font-size: 16px;
+  width: 193px;
+}
+.free_soap_60_sec {
+  display: none;
+}
+.dell_free_soap_60 {
+  cursor: pointer;
+}

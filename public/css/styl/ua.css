@@ -1,0 +1,27 @@
+.free_delivery_text_l1 {
+  font-size: 13px !important;
+  font-weight: bold;
+}
+@media screen and (max-width: 1200px) {
+  .result_text {
+    font-size: 14px !important;
+  }
+  .result_text span {
+    font-size: 18px !important;
+  }
+  .contact_section {
+    padding: 12px 0 0 5px;
+  }
+  .tab_reviews_header_3_1 {
+    margin-left: 0 !important;
+  }
+  .tab_reviews_header_3_1_1 {
+    font-size: 20px !important;
+  }
+  .tab_reviews_header_3_1_2 {
+    font-size: 13px !important;
+  }
+}
+.footer_l1_2 p {
+  margin: 0 0 3px 0 !important;
+}

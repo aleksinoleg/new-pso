@@ -1,0 +1,113 @@
+.form_files_sec{
+	background #fff
+	padding 10px 15px
+}
+.form_files_sec_title
+	text-align left
+	color #3D4045
+	font-size 16px
+	margin 10px 0
+.select_file
+	height auto !important
+	padding-left 0 !important
+	margin-bottom 0 !important
+
+.file_upload{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	font-size: 16px;              /* example */
+	line-height: 2em             /* the same as height */
+}
+.file_upload .button, .file_upload > mark{
+	display: block;
+	cursor: pointer              /* example */
+}
+.file_upload .button{
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 162px;                  /* example */
+	height: 100%;
+	text-align: center
+	cursor pointer
+	z-index 100
+}
+.file_upload > mark{
+	background: transparent;     /* example */
+	padding: 2px 0 2px 182px            /* example */
+	text-align left
+}
+mark span
+	color #0A5A8B
+	font-size 14px
+	font-style italic
+@media only screen and ( max-width: 500px ){  /* example */
+	.file_upload > mark{
+		display: none
+	}
+	.file_upload .button{
+		width: 100%
+	}
+}
+.file_upload input[type=file]{
+	position: absolute;
+	top: 0;
+	opacity: 0
+}
+
+/* Making it beautiful */
+
+.file_upload{
+	margin 0 0 10px 0 !important
+	transition: box-shadow 0.1s linear
+}
+.file_upload.focus{
+	//box-shadow: 0 0 5px rgba(0,30,255,0.4)
+}
+.file_upload .button{
+	background: #0A5A8B;
+	transition: background 0.2s;
+	font-size 16px
+	color: #fff;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+	position relative
+	padding 2px 0
+}
+.file_upload:hover .button{
+	background: #09478b;
+	text-shadow: #09478b 0 -1px 0
+}
+.file_upload:active .button{
+	background: #09478b;
+	//box-shadow: 0 0 3px rgba(0,0,0,0.3) inset
+}
+.download_pic
+	position absolute
+	top 8px
+	left 10px
+.file_upload_title
+	color: #0A5A8B;
+	text-align left
+	font-style italic
+	margin-bottom 5px
+.del_file_a, .del_file_a_hover, .del_file_b, .del_file_b_hover, .del_file_sec_b, .del_file_sec_a
+	display none
+.del_file_sec_b, .del_file_sec_a
+	cursor pointer
+.file_name_before, .file_name_after
+	color #333333
+	font-size 16px
+	font-style normal
+	padding 0 10px
+.leave_email_title
+	margin 10px 0
+	font-size 18px
+	font-weight bold
+	text-align center
+	padding 0 10px
+.leave_email, .submit-leave-email
+	width 250px
+	margin auto

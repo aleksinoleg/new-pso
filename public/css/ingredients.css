@@ -1,0 +1,124 @@
+.prod_tabs_section_left {
+  padding-right: 21px; }
+
+@media screen and (min-width: 1199px) {
+  .review-form {
+    margin-right: 21px; } }
+
+.ing_desc {
+  padding: 0 25px 18px; }
+  .ing_desc h2 {
+    text-transform: uppercase; }
+  .ing_desc > p {
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #7F8487; }
+    @media screen and (max-width: 767px) {
+      .ing_desc > p {
+        text-align: justify; } }
+    .ing_desc > p:last-of-type {
+      margin-bottom: 0; }
+
+.ing_img .item {
+  position: relative;
+  float: left;
+  margin-right: 4px;
+  margin-bottom: 3px; }
+  @media screen and (max-width: 1199px) {
+    .ing_img .item {
+      margin-right: 0;
+      width: 33.3%;
+      text-align: center; } }
+  @media screen and (max-width: 991px) {
+    .ing_img .item {
+      width: 50%; } }
+  @media screen and (max-width: 767px) {
+    .ing_img .item {
+      width: 33.3%; } }
+  @media screen and (max-width: 550px) {
+    .ing_img .item {
+      width: 50%; } }
+  @media screen and (max-width: 550px) {
+    .ing_img .item {
+      width: 100%; } }
+  .ing_img .item span {
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.3); }
+    @media screen and (max-width: 1199px) {
+      .ing_img .item span {
+        left: 50%;
+        max-width: 165px;
+        margin-left: -82.5px; } }
+
+.ing_img .african_palm_tree_oil {
+  margin-right: 0; }
+  .ing_img .african_palm_tree_oil span {
+    padding: 3px 7px;
+    line-height: 1.3; }
+
+.ing_img .item_title {
+  margin-right: 0;
+  font-family: Century Gothic Regular Bold;
+  width: 100%;
+  max-width: 676px;
+  background-color: white; }
+  .ing_img .item_title p:first-of-type {
+    margin-bottom: 0;
+    padding-left: 70px;
+    font-size: 36px;
+    font-style: italic;
+    color: #a3c739;
+    line-height: 1.2; }
+    @media screen and (max-width: 1199px) {
+      .ing_img .item_title p:first-of-type {
+        padding-left: 50px;
+        text-align: left; } }
+    @media screen and (max-width: 424px) {
+      .ing_img .item_title p:first-of-type {
+        padding-left: 0;
+        text-align: center; } }
+  .ing_img .item_title p:last-of-type {
+    margin-bottom: 35px;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #006a95;
+    text-align: center;
+    line-height: 1.2; }
+    @media screen and (max-width: 991px) {
+      .ing_img .item_title p:last-of-type {
+        font-size: 60px; } }
+    @media screen and (max-width: 424px) {
+      .ing_img .item_title p:last-of-type {
+        font-size: 45px; } }
+
+.ing_img .rosemary, .ing_img .chamomile, .ing_img .lavandula, .ing_img .minerals {
+  margin-right: 0; }
+
+.ing_img .rosemary.smalldesktop {
+  display: none; }
+
+@media screen and (max-width: 1199px) {
+  .ing_img .rosemary.smalldesktop {
+    display: block; }
+  .ing_img .rosemary.largedesktop {
+    display: none; } }
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .ing_img .pso_logo {
+    display: none; } }
+
+@media screen and (max-width: 550px) {
+  .ing_img .pso_logo {
+    display: none; } }
+
+.ing_img .minerals span {
+  padding: 3px 8px;
+  line-height: 1.3; }

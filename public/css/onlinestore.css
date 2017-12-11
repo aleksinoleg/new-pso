@@ -1,0 +1,471 @@
+.prod_prefooter {
+  margin-bottom: 30px;
+  background: #eaf5fb; }
+  @media screen and (max-width: 1199px) {
+    .prod_prefooter .free_delivery_section, .prod_prefooter .result_section {
+      max-height: 63px;
+      border-bottom: 1px solid white; } }
+  @media screen and (max-width: 767px) {
+    .prod_prefooter {
+      margin-left: 10px;
+      margin-right: 10px; }
+      .prod_prefooter .free_delivery_section, .prod_prefooter .result_section {
+        max-height: 100%; }
+      .prod_prefooter .contact_section, .prod_prefooter .local_store_section {
+        border-bottom: 1px solid white; }
+      .prod_prefooter .prod_prefooter_item > a {
+        display: block;
+        margin: 0 auto; }
+      .prod_prefooter .free_delivery_section > a {
+        max-width: 295px; }
+      .prod_prefooter .result_section > a {
+        max-width: 270px; }
+      .prod_prefooter .contact_section > a {
+        max-width: 270px; }
+      .prod_prefooter .local_store_section > a {
+        max-width: 260px; } }
+  .prod_prefooter .result_text {
+    line-height: 1.3; }
+  .prod_prefooter .free_delivery_text_l1, .prod_prefooter .free_delivery_text_l2, .prod_prefooter .result_text_l1, .prod_prefooter .result_text_l2 {
+    color: #333; }
+  .prod_prefooter .result_text_l1 {
+    padding-top: 3px; }
+  .prod_prefooter .local_store_section {
+    line-height: 64px; }
+  .prod_prefooter .local_store_text {
+    padding-top: 10px;
+    padding-left: 5px; }
+    @media screen and (max-width: 767px) {
+      .prod_prefooter .local_store_text {
+        padding-left: 12px; } }
+  .prod_prefooter .local_store_text_l1, .prod_prefooter .local_store_text_l2 {
+    color: #0a5a8b;
+    text-align: center;
+    line-height: 1.2; }
+  .prod_prefooter .local_store_text_l1 {
+    font-size: 14px; }
+  .prod_prefooter .local_store_text_l2 {
+    font-weight: bold;
+    font-size: 22px; }
+    @media screen and (max-width: 424px) {
+      .prod_prefooter .local_store_text_l2 {
+        font-size: 21px; } }
+  @media screen and (max-width: 1199px) {
+    .prod_prefooter .result_section {
+      padding-left: 0; } }
+
+.breadcrumbs {
+  margin-left: 6px; }
+
+.account_logo {
+  float: left;
+  font-weight: bold;
+  margin-left: 5px;
+  padding-right: 20px;
+  font-size: 18px;
+  width: 270px;
+  height: 70px;
+  text-transform: uppercase;
+  line-height: 70px;
+  color: #0a5a8b;
+  background: url("/img/en/title-menu.png") no-repeat;
+  text-align: center; }
+
+.account_login {
+  float: right;
+  margin-top: 40px;
+  padding-right: 20px;
+  width: 200px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  background: url("/img/en/exit.png") no-repeat;
+  -webkit-transition: -webkit-filter 0.3s ease-in-out;
+  transition: -webkit-filter 0.3s ease-in-out;
+  transition: filter 0.3s ease-in-out;
+  transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out; }
+  .account_login:hover {
+    cursor: pointer;
+    -webkit-transition: -webkit-filter 0.3s ease-in-out;
+    transition: -webkit-filter 0.3s ease-in-out;
+    transition: filter 0.3s ease-in-out;
+    transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
+    -webkit-filter: brightness(90%);
+            filter: brightness(90%); }
+  .account_login a {
+    color: white; }
+    .account_login a:hover, .account_login a:focus {
+      text-decoration: none; }
+
+.account_tab {
+  margin-top: 15px; }
+  .account_tab .nav-tabs {
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #EAF5FB; }
+    .account_tab .nav-tabs > li {
+      margin-bottom: -2px;
+      width: 50%;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: bold; }
+      @media screen and (min-width: 1199px) {
+        .account_tab .nav-tabs > li:last-of-type {
+          margin-left: 2px; } }
+      @media screen and (max-width: 767px) {
+        .account_tab .nav-tabs > li {
+          display: table;
+          font-size: 13px; } }
+      .account_tab .nav-tabs > li:first-of-type {
+        max-width: 583px; }
+        .account_tab .nav-tabs > li:first-of-type.active {
+          border-left: 2px solid #74A3C1;
+          border-right: 1px solid #74A3C1; }
+      .account_tab .nav-tabs > li:last-of-type.active {
+        border-right: 2px solid #74A3C1;
+        border-left: 1px solid #74A3C1; }
+      .account_tab .nav-tabs > li:last-of-type a {
+        margin-right: 0; }
+      .account_tab .nav-tabs > li a {
+        padding: 14px 15px;
+        background-color: #74A3C1;
+        color: #fff;
+        text-shadow: .1px 0 #fff;
+        -webkit-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+        border: none;
+        -webkit-border-radius: 0;
+                border-radius: 0; }
+        @media screen and (max-width: 767px) {
+          .account_tab .nav-tabs > li a {
+            display: table-cell;
+            padding: 14px 5px;
+            height: 66px;
+            vertical-align: middle; } }
+        .account_tab .nav-tabs > li a:hover {
+          -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+          background-color: #EAF5FB;
+          color: #0a5a8b;
+          border: none; }
+      .account_tab .nav-tabs > li.active {
+        background-color: #EAF5FB;
+        border-top: 2px solid #74A3C1; }
+        .account_tab .nav-tabs > li.active > a, .account_tab .nav-tabs > li.active > a:focus, .account_tab .nav-tabs > li.active > a:hover {
+          background-color: #EAF5FB;
+          color: #0a5a8b;
+          outline: none;
+          border: none; }
+  .account_tab ul {
+    padding-left: 0; }
+    .account_tab ul li {
+      float: left;
+      width: 15%;
+      list-style: none;
+      text-align: center; }
+      .account_tab ul li.product_name {
+        width: 40%; }
+        @media screen and (max-width: 991px) {
+          .account_tab ul li.product_name {
+            width: 35%; } }
+  @media screen and (max-width: 767px) {
+    .account_tab .orders_menu {
+      display: none; } }
+  .account_tab .orders_menu ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    background-color: #D4EEFB; }
+    .account_tab .orders_menu ul li {
+      padding: 13px 0;
+      font-size: 16px;
+      text-transform: uppercase; }
+      @media screen and (max-width: 991px) {
+        .account_tab .orders_menu ul li {
+          font-size: 14px; }
+          .account_tab .orders_menu ul li:nth-of-type(3) {
+            width: 20%; } }
+  .account_tab .orders_product ul {
+    margin-bottom: 2px;
+    height: 130px;
+    background-color: #EAF5FB; }
+    @media screen and (max-width: 991px) {
+      .account_tab .orders_product ul {
+        height: auto; } }
+    @media screen and (max-width: 767px) {
+      .account_tab .orders_product ul {
+        margin-bottom: 5px; } }
+    .account_tab .orders_product ul li {
+      height: 100%;
+      color: #565B5E; }
+  .account_tab .orders_product .product_name_wrap {
+    float: left;
+    width: 40%; }
+  .account_tab .orders_product li.product_name {
+    float: none;
+    width: 100%; }
+  .account_tab .orders_product li:not(.product_name) {
+    font-size: 16px;
+    line-height: 130px; }
+  .account_tab .orders_product .product_name {
+    padding: 13px 0 13px 28px; }
+    @media screen and (max-width: 991px) {
+      .account_tab .orders_product .product_name {
+        padding-left: 0; } }
+    .account_tab .orders_product .product_name img {
+      float: left;
+      margin-right: 15px; }
+  .account_tab .orders_product .prod_title, .account_tab .orders_product .prod_desc {
+    text-align: left; }
+  .account_tab .orders_product .prod_title {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #335a07; }
+  .account_tab .orders_product .payment {
+    font-size: 16px; }
+    @media screen and (max-width: 991px) {
+      .account_tab .orders_product .payment {
+        width: 20%; } }
+    .account_tab .orders_product .payment .paid {
+      display: block;
+      height: 100%;
+      line-height: 130px; }
+  .account_tab .orders_product .pending {
+    position: relative;
+    height: 100%;
+    padding-top: 35px; }
+    .account_tab .orders_product .pending a {
+      -webkit-transition: -webkit-filter .3s ease-in-out;
+      transition: -webkit-filter .3s ease-in-out;
+      transition: filter .3s ease-in-out;
+      transition: filter .3s ease-in-out, -webkit-filter .3s ease-in-out; }
+    .account_tab .orders_product .pending a:hover {
+      -webkit-filter: brightness(92%);
+              filter: brightness(92%);
+      -webkit-transition: -webkit-filter .3s ease-in-out;
+      transition: -webkit-filter .3s ease-in-out;
+      transition: filter .3s ease-in-out;
+      transition: filter .3s ease-in-out, -webkit-filter .3s ease-in-out; }
+      .account_tab .orders_product .pending a:hover img {
+        cursor: pointer; }
+      .account_tab .orders_product .pending a:hover + span {
+        cursor: pointer;
+        text-decoration: none; }
+    .account_tab .orders_product .pending img {
+      margin-top: 10px;
+      max-width: 150px;
+      width: 100%;
+      height: auto; }
+    .account_tab .orders_product .pending .pay {
+      position: absolute;
+      top: 72px;
+      right: 50%;
+      margin-right: -25px;
+      text-transform: uppercase;
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+      text-decoration: underline; }
+      @media screen and (max-width: 991px) {
+        .account_tab .orders_product .pending .pay {
+          top: 70px; } }
+      .account_tab .orders_product .pending .pay:hover {
+        cursor: pointer;
+        text-decoration: none; }
+  .account_tab .orders_product .desktop_nav .pending_wrap, .account_tab .orders_product .mob_nav .pending_wrap {
+    padding-top: 0;
+    text-align: center; }
+    .account_tab .orders_product .desktop_nav .pending_wrap a, .account_tab .orders_product .mob_nav .pending_wrap a {
+      display: inline-block;
+      margin-bottom: 10px;
+      width: 150px;
+      height: 30px;
+      background: url("/img/button_pay_150.png") no-repeat;
+      line-height: 30px; }
+      .account_tab .orders_product .desktop_nav .pending_wrap a:hover, .account_tab .orders_product .mob_nav .pending_wrap a:hover {
+        text-decoration: none; }
+    .account_tab .orders_product .desktop_nav .pending_wrap span, .account_tab .orders_product .mob_nav .pending_wrap span {
+      position: static; }
+  @media screen and (max-width: 767px) {
+    .account_tab .orders_product .desktop_nav {
+      display: none; } }
+  .account_tab .orders_product .mob_nav {
+    display: none; }
+    @media screen and (max-width: 767px) {
+      .account_tab .orders_product .mob_nav {
+        display: block; } }
+    .account_tab .orders_product .mob_nav li {
+      line-height: 1.5; }
+    .account_tab .orders_product .mob_nav .top_section {
+      background-color: #D4EEFB; }
+    .account_tab .orders_product .mob_nav .bottom_section {
+      background-color: #EAF5FB; }
+    .account_tab .orders_product .mob_nav .order {
+      margin: 10px 0 5px 0;
+      width: 100%;
+      font-size: 16px; }
+      .account_tab .orders_product .mob_nav .order > span {
+        display: block;
+        font-weight: bold;
+        color: #333;
+        text-transform: uppercase; }
+        @media screen and (max-width: 424px) {
+          .account_tab .orders_product .mob_nav .order > span {
+            font-size: 12px; } }
+      .account_tab .orders_product .mob_nav .order .pending {
+        padding-top: 0; }
+        .account_tab .orders_product .mob_nav .order .pending img {
+          margin-top: 0;
+          height: 30px; }
+        .account_tab .orders_product .mob_nav .order .pending .pay {
+          top: 5px; }
+    .account_tab .orders_product .mob_nav .pending_wrap {
+      width: 100%;
+      float: left; }
+    .account_tab .orders_product .mob_nav .product_name {
+      padding: 15px 0 15px 10px;
+      width: 100%;
+      min-height: 115px; }
+    .account_tab .orders_product .mob_nav .prod_title {
+      margin-bottom: 0;
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center; }
+    @media screen and (max-width: 424px) {
+      .account_tab .orders_product .mob_nav .prod_desc {
+        line-height: 1.2;
+        font-size: 13px;
+        color: #333; } }
+    .account_tab .orders_product .mob_nav .bottom_section li {
+      padding: 8px 0;
+      width: 33%; }
+      .account_tab .orders_product .mob_nav .bottom_section li span.title {
+        display: block;
+        font-size: 13px; }
+  .account_tab label, .account_tab input, .account_tab select {
+    margin-top: 8px;
+    width: 100%; }
+  .account_tab label {
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1; }
+  .account_tab input {
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-color: white; }
+  .account_tab select {
+    padding-left: 40%;
+    height: 30px;
+    font-size: 14px;
+    background-color: white;
+    border: none; }
+    @media screen and (max-width: 1199px) {
+      .account_tab select {
+        padding-left: 37%; } }
+    @media screen and (max-width: 991px) {
+      .account_tab select {
+        padding-left: 32%; } }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .account_tab select option {
+        font-size: 12px; } }
+    @media screen and (max-width: 767px) {
+      .account_tab select {
+        padding-left: 0; } }
+    @media screen and (max-width: 424px) {
+      .account_tab select option {
+        font-size: 10px;
+        text-transform: uppercase; } }
+  .account_tab #ship_full_name_section input:nth-of-type(2) {
+    margin-top: 10px; }
+  .account_tab .form-group {
+    margin-bottom: 5px; }
+    .account_tab .form-group ::-webkit-input-placeholder {
+      font-size: 14px;
+      color: #333; }
+    .account_tab .form-group ::-moz-placeholder {
+      font-size: 14px;
+      color: #333; }
+    .account_tab .form-group :-moz-placeholder {
+      font-size: 14px;
+      color: #333; }
+    .account_tab .form-group :-ms-input-placeholder {
+      font-size: 14px;
+      color: #333; }
+  .account_tab .passport {
+    margin: 0 15px;
+    background-color: #D4EEFB; }
+    @media screen and (min-width: 768px) {
+      .account_tab .passport .col-xs-12 {
+        padding: 0 20px; } }
+    .account_tab .passport label {
+      margin-top: 10px;
+      margin-bottom: 3px; }
+    .account_tab .passport input {
+      margin-bottom: 3px; }
+  .account_tab .my_profile {
+    margin: 0 15px;
+    background-color: #EAF5FB; }
+    @media screen and (min-width: 768px) {
+      .account_tab .my_profile > .col-sm-6 {
+        padding: 0 20px; } }
+    @media screen and (max-width: 767px) {
+      .account_tab .my_profile .col-xs-12 {
+        margin-bottom: 45px; } }
+    .account_tab .my_profile .form_title {
+      background: #D4EEFB;
+      margin-left: -20px;
+      margin-right: -20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center; }
+      @media screen and (max-width: 767px) {
+        .account_tab .my_profile .form_title {
+          margin-left: -15px;
+          margin-right: -15px; } }
+  .account_tab .button_save {
+    padding: 0; }
+    .account_tab .button_save .form-group {
+      margin-bottom: 0;
+      height: 50px;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #92C3DC), color-stop(50%, #0D5E8D));
+      background: -webkit-linear-gradient(top, #92C3DC 50%, #0D5E8D 50%);
+      background: linear-gradient(to bottom, #92C3DC 50%, #0D5E8D 50%);
+      -webkit-transition: -webkit-filter 0.3s ease-in-out;
+      transition: -webkit-filter 0.3s ease-in-out;
+      transition: filter 0.3s ease-in-out;
+      transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out; }
+      .account_tab .button_save .form-group input {
+        text-decoration: underline; }
+      .account_tab .button_save .form-group:hover {
+        -webkit-transition: -webkit-filter 0.3s ease-in-out;
+        transition: -webkit-filter 0.3s ease-in-out;
+        transition: filter 0.3s ease-in-out;
+        transition: filter 0.3s ease-in-out, -webkit-filter 0.3s ease-in-out;
+        -webkit-filter: brightness(108%);
+                filter: brightness(108%); }
+      .account_tab .button_save .form-group input {
+        margin: 0;
+        height: 100%;
+        font-size: 18px;
+        font-weight: bold;
+        background: transparent url("/img/save.png") no-repeat;
+        text-transform: uppercase;
+        color: white; }
+        @media screen and (max-width: 767px) {
+          .account_tab .button_save .form-group input {
+            padding-left: 65px;
+            font-size: 12px; } }
+
+@media screen and (min-width: 768px) {
+  .bottom_banner, .account_content {
+    padding: 0; } }
+
+.prod_prefooter {
+  margin: 23px 0; }

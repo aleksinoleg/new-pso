@@ -1,0 +1,36 @@
+.left_part {
+  width: calc(100% - 280px);
+  padding-right: 20px;
+}
+.right_sidebar {
+  width: 280px;
+  float: left;
+}
+.aylin_banner {
+  padding: 10px;
+  background: #eaf5fb;
+  margin-left: 10px;
+}
+.aylin_banner .l1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #315b09;
+}
+.aylin_banner .l2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #8eb876;
+}
+.aylin_banner .l3 {
+  font-size: 16px;
+}
+.aylin_banner .l4 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+}
+.aylin_banner .l4 a {
+  color: #8eb876;
+}

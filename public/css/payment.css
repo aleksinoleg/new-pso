@@ -1,0 +1,16 @@
+.failed .l2 {
+  font-size: 48px; }
+  .failed .l2-1 {
+    text-transform: uppercase; }
+
+@media screen and (max-width: 767px) {
+  .payment .l1 {
+    font-size: 48px; } }
+
+@media screen and (max-width: 767px) {
+  .payment .l2 {
+    font-size: 32px; } }
+
+@media screen and (max-width: 767px) {
+  .payment .l3, .payment .l4 {
+    font-size: 19px; } }

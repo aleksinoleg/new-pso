@@ -1,0 +1,31 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menu_btn {
+    padding: 4px 15px;
+  }
+  .sec_1,
+  .sec_2,
+  .sec_3 {
+    width: 268px;
+  }
+  .scalp_section,
+  .nails_section,
+  .knee_section,
+  .hang_section,
+  .face_section,
+  .acne_section,
+  .kids_section {
+    left: 15px;
+  }
+  .plus_1 {
+    left: 243px;
+  }
+  .plus_2 {
+    right: 394px;
+  }
+  .footer_l1_2 {
+    width: 322px;
+  }
+  .footer_l1_3 {
+    width: calc(100% - 820px);
+  }
+}

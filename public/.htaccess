@@ -1,0 +1,93 @@
+DirectoryIndex index.php
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !de
+RewriteCond %{REQUEST_FILENAME} !it
+RewriteCond %{REQUEST_FILENAME} !fr
+RewriteCond %{REQUEST_FILENAME} !es
+RewriteCond %{REQUEST_FILENAME} !cz
+RewriteCond %{REQUEST_FILENAME} !ru
+RewriteCond %{REQUEST_FILENAME} !ua
+RewriteCond %{REQUEST_FILENAME} !he
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+AuthUserFile "/home/psolg/en/public//.htpasswd"
+AuthType Basic
+AuthName "login"
+#require valid-user
+#Redirect 301 /es https://www.psoeasy.com/es$
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://%{HTTP_HOST}/$1 [R=301,L]
+RedirectMatch 301 /173914(.*) https://www.psoeasy.com
+#RedirectMatch 301 /index.php(.*) https://www.psoeasy.com
+#RewriteRule ^index.php$ / [QSA,R]
+#RewriteCond %{REQUEST_URI} /index.php/
+#RewriteRule ^(.*)$ https://www.psoeasy.com/ [R=301,L]
+
+RedirectMatch 301 /173914(.*) https://www.psoeasy.com
+RedirectMatch 301 (.*).htm https://www.psoeasy.com
+RedirectMatch 301 (.*).html https://www.psoeasy.com
+#RedirectMatch 301 /index.php(.*) https://www.psoeasy.com
+#RewriteRule ^index.php$ / [QSA,R]
+#RewriteCond %{REQUEST_URI} /index.php/
+#RewriteRule ^(.*)$ https://www.psoeasy.com/ [R=301,L]
+RedirectMatch 301 /shop(.*) https://www.psoeasy.com
+RedirectMatch 301 /medias(.*) https://www.psoeasy.com
+RedirectMatch 301 /site/(.*) https://www.psoeasy.com
+RedirectMatch 301 /component/(.*) https://www.psoeasy.com
+
+RewriteCond %{QUERY_STRING} ^id=652
+RewriteRule (.*) https://www.psoeasy.com/ [L,R=301]
+
+Redirect 301	/about-us	https://www.psoeasy.com/en/about-us
+Redirect 301	/calendula-for-psoriasis	https://www.psoeasy.com/en/calendula-for-psoriasis
+#Redirect 301	/cart	https://www.psoeasy.com/en/cart
+Redirect 301	/clinical-tests	https://www.psoeasy.com/en/psoriasis-clinical-trial
+Redirect 301	/contact	https://www.psoeasy.com/en/contact
+Redirect 301	/cream-for-psoriasis	https://www.psoeasy.com/en/psoriasis-cream
+Redirect 301	/dead-sea-cream	https://www.psoeasy.com/en/cream-for-psoriasis-reviews
+Redirect 301	/delivery	https://www.psoeasy.com/en/delivery
+Redirect 301	/effective-remedy-for-pimples	https://www.psoeasy.com/en/body-psoriasis-treatment
+Redirect 301	/FAQ	https://www.psoeasy.com/en/FAQ
+Redirect 301	/info-about-aylin	https://www.psoeasy.com/en/info-about-aylin-shaked
+Redirect 301	/liquid-soap-for-psoriasis	https://www.psoeasy.com/en/psoriasis-soap-bar
+Redirect 301	/lotion-for-psoriasis	https://www.psoeasy.com/en/psoriasis-lotion-reviews
+Redirect 301	/mahonia-for-psoriasis	https://www.psoeasy.com/en/mahonia-for-psoriasis
+Redirect 301	/my-account	https://www.psoeasy.com/en/my-account
+Redirect 301	/no-side-effects	https://www.psoeasy.com/
+Redirect 301	/oil-for-psoriasis-treatment	https://www.psoeasy.com/en/psoriasis-oil
+Redirect 301	/privacy	https://www.psoeasy.com/en/privacy
+Redirect 301	/psoriasis-body	https://www.psoeasy.com/en/body-psoriasis-treatment
+Redirect 301	/psoriasis-cream	https://www.psoeasy.com/en/cream-for-psoriasis
+Redirect 301	/psoriasis-dead-sea	https://www.psoeasy.com/en/dead-sea-minerals-for-psoriasis
+Redirect 301	/psoriasis-natural-treatment	https://www.psoeasy.com/en/natural-ingredients-for-psoriasis
+Redirect 301	/psoriasis-scalp	https://www.psoeasy.com/en/scalp-psoriasis-treatment
+Redirect 301	/psoriasis-scalp-lotion	https://www.psoeasy.com/en/psoriasis-scalp-lotion
+Redirect 301	/psoriasis-shampoo	https://www.psoeasy.com/en/psoriasis-shampoo
+Redirect 301	/psoriasis-soap	https://www.psoeasy.com/en/psoriasis-soap-bar
+Redirect 301	/remedy-for-acne	https://www.psoeasy.com/en/body-psoriasis-treatment
+Redirect 301	/shipping	https://www.psoeasy.com/en/delivery
+Redirect 301	/smilax-effect-psoriasis	https://www.psoeasy.com/en/sarsaparilla-for-psoriasis
+Redirect 301	/soap-for-pimples	https://www.psoeasy.com/en/body-psoriasis-treatment
+Redirect 301	/tea-tree-oil-psoriasis	https://www.psoeasy.com/en/tea-tree-oil-for-psoriasis
+Redirect 301	/terms-of-use	https://www.psoeasy.com/en/terms-of-use
+Redirect 301	/testimonials	https://www.psoeasy.com/
+
+Redirect 301    "/es/sal-mar-muerto para-psoriasis"   https://www.psoeasy.com/es/sal-mar-muerto-para-psoriasis
+Redirect 301    /money-back   https://www.psoeasy.com/en/30-day-money-back-guarantee
+
+#Redirect 301	/what-is-psoriasis	https://www.psoeasy.com/
+
+#Redirect 301    /what-is-psoriasis      https://www.psoeasy.com/
+Redirect 301	/fr/money-back	https://www.psoeasy.com/fr/garantie-30-jours-satisfait-ou-rembourse
+Redirect 301	/PsoEasy https://www.psoeasy.com/
+
+Redirect 301    /registration.php https://www.psoeasy.com/
+Redirect 301    /fr/pdf/clinical-research.pdf https://www.psoeasy.com/pdf/clinical-research.pdf
+Redirect 301    /fr/pdf/ https://www.psoeasy.com/pdf/clinical-research.pdf

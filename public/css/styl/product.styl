@@ -1,0 +1,370 @@
+@import "colors.styl"
+.static_pages_menu_l1,
+.static_pages_menu_l2
+	height 35px
+.static_pages_menu_l1
+	background main_color_6
+.static_pages_menu_l2
+	background main_color_5
+.static_pages_menu
+	margin 15px 0 0 0
+.static_pages_menu_list
+	top 23px
+	left 0
+	font-size 16px
+	font-weight bold
+.static_pages_menu_list a
+	color font_color
+	&:hover
+		text-decoration none
+	margin 0 20px
+.static_pages_menu_hover
+	background: main_color_1
+	height: 5px
+	width: 100%
+	bottom -24px
+	display none
+.column_1
+	width 335px
+.column_3
+	width 300px
+.column_2
+	width calc(100% - 635px)
+	padding 0 35px
+li.active img
+	border 1px solid main_color_1
+.carousel_prods .carousel-indicators
+	width 100%
+	position relative
+	margin 0
+	padding 0
+	left 0
+	bottom 0
+	& li
+		width auto
+		border none
+		height auto
+		text-indent 0
+		margin 0 5px
+.indicators
+	padding 20px
+	background main_color_6
+.carousel_prods_right_hover, .carousel_prods_left_hover
+	display none
+.carousel_prods_left
+	bottom 40px
+	left 0
+	z-index 20
+	&:hover
+		.no_hover_left
+			display none
+		.carousel_prods_left_hover
+			display block
+.carousel_prods_right
+	bottom 40px
+	right 0
+	z-index 20
+	&:hover
+		.no_hover_right
+			display none
+		.carousel_prods_right_hover
+			display block
+.left_banner
+	margin 20px 0
+.short_desc, .long_desc
+	font-size 16px
+	text-align justify
+.short_desc_title, .long_desc_title
+	font-family "Century Gothic Regular Bold"
+	font-size 18px
+.prod_title
+	font-family "Century Gothic Regular Bold"
+	color #315D08
+	margin-top 27px
+	margin-bottom 7px
+.prod_review_head_leave_review a
+	color font_color
+	text-decoration underline
+	&:hover
+		background #ffc757
+.clinically_tested
+	top 76px
+	right 52px
+.prod_review_head_section
+	margin 10px 0
+.prod_code
+	margin 20px 0 10px 0
+.availability
+	margin 0 0 10px 0
+.social_section
+	margin 33px 0 20px 0
+.soc_item
+	margin 0 0 0 15px
+.hover_dark:hover
+	-webkit-filter brightness(75%)
+.cart_section
+	background main_color_1
+	height 285px
+.cart_title
+	text-align center
+	font-size 24px
+	font-family "Century Gothic Regular Bold"
+	color #FFC759
+	margin 25px 0 20px 0
+.cart_quantity
+	text-align center
+#cart_quantity
+	width 100px
+	padding 5px 0 5px 40px
+	font-size 16px
+.quantity_title
+	text-align center
+	font-size 18px
+	color #fff
+	margin-bottom 10px
+.order_total
+	text-align center
+	color #ffffff
+	margin 10px 0
+	font-size 16px
+	& span
+		font-family "Century Gothic Regular Bold"
+		font-size 30px
+		font-style italic
+.button_buy_text
+	font-size 16px
+	color #ffffff
+	top 9px
+	right 0
+	font-family "Century Gothic Regular Bold"
+	width 170px
+	text-align center
+	cursor pointer
+.add_to_basket
+	cursor pointer
+	margin 10px auto 0 auto
+	&:hover
+		.button_buy_text
+			text-decoration underline
+.blue_icons_section
+	margin 10px 0 0 0
+	background main_color_1
+	color #ffffff
+.blue_icon_img
+	margin 15px 15px 5px 15px
+.delivery_text_l1
+	font-size 20px
+	margin-top 10px
+.delivery_text_l2, .result_text_l2
+	margin-top -5px
+.delivery_text_l3, .result_text_l3
+	text-align right
+	font-size 12px
+	& a
+		color #ffffff
+		text-decoration underline
+		&:hover
+			text-decoration none
+.blue_icon_text
+	width calc(100% - 80px)
+	padding-right 15px
+.result_text_l1
+	margin-top 10px
+	& span
+		font-size 20px
+.contact_blue
+	margin-bottom 15px
+.link_contact
+	font-size 12px
+	& a
+		color #ffffff
+		text-decoration underline
+		&:hover
+			text-decoration none
+	right 0
+	bottom -3px
+.prod_youtube iframe
+	width 100%
+	height 180px
+	margin 15px 0
+.left_banner_before, .left_banner_after
+	text-align center
+	padding 5px 0
+	background rgba(#ffffff,.5)
+	font-size 18px
+	top 0
+	width 163px
+.left_banner_after
+	right 0
+.prod_tabs_section_left
+	width calc(100% - 300px)
+	padding 0 35px 0 0
+	& li
+		width 20%
+		text-align center
+		background main_color_7
+		border-right 2px solid #ffffff
+		&:last-of-type
+			border 0
+		& a
+			color main_color_1
+			font-size 16px
+			font-weight bold
+			margin 0
+			border-radius 0
+.prod_tabs_section_right
+	width 300px
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover
+	background main_color_2
+	color #ffffff
+	border 1px solid transparent
+	cursor pointer
+.nav>li>a:focus, .nav>li>a:hover
+	background main_color_2
+	border 1px solid transparent
+	color #ffffff
+.prod_tabs_section_left .tab-pane
+	background main_color_4
+	padding-top 10px
+.tab_reviews_header
+	background main_color_3
+	border-radius 5px
+	margin 0 0 20px 0
+.tab_reviews_header_1
+	width 250px
+.tab_reviews_header_1_l1
+	padding-left 30px
+	color #ffffff
+	font-size 24px
+	font-family "Century Gothic Regular Bold"
+	margin 10px 0 0 0
+.tab_reviews_header_1_l2
+	padding-left 30px
+	color #FFC954
+	font-size 18px
+	font-family "Century Gothic Regular Bold"
+	& img
+		margin -5px 0 0 0
+.tab_reviews_header_3
+	width 225px
+	margin-top 15px
+.tab_reviews_header_2
+	width calc(100% - 475px)
+.tab_reviews_header_3_1
+	width calc(100% - 67px)
+.tab_reviews_header_3_1_1
+	color #ffffff
+	font-family "Century Gothic Regular Bold"
+	font-size 26px
+	margin-top -5px
+.tab_reviews_header_3_1_2
+	color #ffffff
+	font-size 16px
+	font-family "Century Gothic Regular Bold"
+	margin-top -10px
+.tab_reviews_header_2_1
+	color main_color_1
+	font-size 60px
+	font-family "Century Gothic Regular Bold"
+	margin-top -7px
+.tab_reviews_header_2_2
+	color main_color_1
+	font-size 16px
+	width calc(100% - 120px)
+	font-weight bold
+	padding-left 10px
+	margin-top 2px
+.tab_review_l1_1
+	width 155px
+	padding-left 30px
+	margin 10px 0
+.tab_review_l1_2
+	width calc(100% - 155px)
+	color #6F7A7E
+	font-size 24px
+	font-weight bold
+	margin-top 4px
+	padding-left 20px
+.tab_review_l2
+	margin 0 25px 30px 25px
+	background #ffffff
+	font-size 16px
+	padding 5px 10px
+	border-radius 5px
+	& p
+		margin 0
+.review_prod_author, .review_prod_date
+	font-size 14px
+	margin 5px 0
+	font-style italic
+	& span
+		color main_color_1
+.prod_prefooter
+	background main_color_4
+	margin 30px 0
+	padding 5px
+	font-size 16px
+.free_delivery_text_l1
+	font-size 24px
+	font-weight bold
+.free_delivery_text_l2
+	margin-top -5px
+.result_text_l1
+	margin 0
+	& span
+		font-weight bold
+		font-size 24px
+.local_store_text_l1
+	color main_color_1
+	font-weight bold
+.local_store_text
+	padding-top 5px
+	text-align right
+.local_store_text_l2
+	font-family "Century Gothic Regular Bold"
+	color: main_color_1
+	font-size 24px
+	margin-top -5px
+.prod_prefooter_item_hover
+	height 5px
+	background main_color_1
+	width 100%
+	position absolute
+	bottom -6px
+	left 0
+	display: none
+.prod_prefooter_item
+	height 50px
+	& a
+		color font_color
+	&:hover
+		.prod_prefooter_item_hover
+			display block
+.close_modal {
+	top: 0;
+	right: 0;
+	height: 38px;
+	width: 38px;
+	background: #4884a9;
+	padding: 0;
+	cursor: pointer;
+	color: #fff;
+	border: none;
+	font-size: 30px;
+}
+.thx_rev
+	width calc(100% - 190px)
+	text-align center
+	font-family "Century Gothic Regular Bold"
+	font-size 20px
+	height 72px
+
+
+
+
+
+
+
+
+
+

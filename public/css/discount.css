@@ -1,0 +1,140 @@
+.discount h1 {
+  font-weight: normal;
+  text-transform: inherit; }
+
+.discount .img_discount {
+  position: relative;
+  margin-bottom: 20px; }
+  @media screen and (max-width: 424px) {
+    .discount .img_discount {
+      margin-bottom: 55px; } }
+  .discount .img_discount form {
+    position: absolute;
+    top: 285px;
+    left: 84px;
+    width: 100%;
+    max-width: 405px; }
+    @media screen and (max-width: 1199px) and (min-width: 768px) {
+      .discount .img_discount form {
+        top: 196px;
+        left: 61px; } }
+    @media screen and (max-width: 991px) and (min-width: 768px) {
+      .discount .img_discount form {
+        top: 130px;
+        left: 42px; } }
+    @media screen and (max-width: 767px) {
+      .discount .img_discount form {
+        max-width: 300px;
+        left: auto;
+        top: auto;
+        right: 50%;
+        bottom: 0;
+        margin-right: -150px; } }
+    @media screen and (max-width: 424px) {
+      .discount .img_discount form {
+        max-width: 270px;
+        bottom: -50px;
+        margin-right: -135px; } }
+    .discount .img_discount form ::-webkit-input-placeholder {
+      color: #333; }
+    .discount .img_discount form ::-moz-placeholder {
+      color: #333; }
+    .discount .img_discount form :-moz-placeholder {
+      color: #333; }
+    .discount .img_discount form :-ms-input-placeholder {
+      color: #333; }
+    .discount .img_discount form input {
+      display: block;
+      height: 50px;
+      border: none; }
+      @media screen and (max-width: 991px) and (min-width: 768px) {
+        .discount .img_discount form input {
+          height: 35px; } }
+      .discount .img_discount form input[type='email'] {
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+        font-style: italic;
+        font-size: 16px;
+        -webkit-box-shadow: inset 1px 2px 2px 0px #949494;
+                box-shadow: inset 1px 2px 2px 0px #949494; }
+        @media screen and (max-width: 1199px) and (min-width: 768px) {
+          .discount .img_discount form input[type='email'] {
+            margin-bottom: 15px;
+            width: 80%; } }
+        @media screen and (max-width: 991px) and (min-width: 768px) {
+          .discount .img_discount form input[type='email'] {
+            margin-bottom: 10px;
+            width: 50%; } }
+        @media screen and (max-width: 424px) {
+          .discount .img_discount form input[type='email'] {
+            margin-bottom: 10px;
+            font-size: 14px; } }
+        .discount .img_discount form input[type='email']:focus {
+          outline: none;
+          -webkit-box-shadow: inset 1px 2px 6px 0px #949494;
+                  box-shadow: inset 1px 2px 6px 0px #949494; }
+      .discount .img_discount form input[type='submit'] {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 300px;
+        font-size: 20px;
+        background-color: #EE513E;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: underline;
+        -webkit-transition: background-color .3s linear;
+        transition: background-color .3s linear;
+        border: none; }
+        @media screen and (max-width: 1199px) and (min-width: 768px) {
+          .discount .img_discount form input[type='submit'] {
+            margin-left: 12px;
+            font-size: 21px; } }
+        @media screen and (max-width: 991px) and (min-width: 768px) {
+          .discount .img_discount form input[type='submit'] {
+            margin-left: 0;
+            width: 50%;
+            font-size: 16px; } }
+        @media screen and (max-width: 767px) {
+          .discount .img_discount form input[type='submit'] {
+            font-size: 18px; } }
+        .discount .img_discount form input[type='submit']:hover {
+          -webkit-transition: background-color .3s linear;
+          transition: background-color .3s linear;
+          background-color: #ed4935; }
+  .discount .img_discount img {
+    width: 100%;
+    height: auto; }
+
+ul {
+  margin-bottom: 28px; }
+
+iframe {
+  max-height: 185px;
+  width: 270px;
+  margin-top: 20px; }
+
+.modal_review_sent .modal-body, .modal_review_sent .modal-dialog, .modal_review_sent .modal-content {
+  height: auto; }
+
+.modal_review_sent .modal-body, .modal_review_sent .modal-dialog {
+  width: 100%; }
+
+.modal_review_sent .modal_review_logo {
+  margin-bottom: 10px;
+  text-align: center; }
+
+.modal_review_sent .thx_rev_promocod {
+  font-family: "Century Gothic Regular Bold";
+  text-align: center;
+  margin: auto;
+  font-size: 18px; }
+  .modal_review_sent .thx_rev_promocod p {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #4884a9;
+    line-height: 1; }
+    .modal_review_sent .thx_rev_promocod p:last-of-type {
+      margin-bottom: 12px; }

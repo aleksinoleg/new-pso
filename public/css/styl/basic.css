@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Century Gothic Regular;
+  src: url("/fonts/CenturyGothicRegular.ttf");
+}
+@font-face {
+  font-family: Century Gothic Regular Bold;
+  src: url("/fonts/GOTHICB.ttf");
+}
+body {
+  font-family: "Century Gothic Regular";
+  color: #333;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.no_padding {
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+.margin_auto {
+  margin: auto;
+}
+.h_100 {
+  height: 100%;
+}
+.w_100 {
+  width: 100%;
+}
+.margin_0 {
+  margin: 0;
+}

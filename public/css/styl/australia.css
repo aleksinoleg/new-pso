@@ -1,0 +1,49 @@
+.modal-lg {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  max-width: 1050px;
+}
+.modal-content {
+  margin: auto;
+  width: 100%;
+  height: 445px;
+  border-radius: 0;
+  background: url("/img/products_au.jpg");
+}
+.modal_au_sec {
+  height: auto;
+  width: 100%;
+  max-width: 420px;
+}
+.modal_au_title {
+  text-align: center;
+  color: #fff;
+  font-family: "Century Gothic Regular Bold";
+  font-size: 43px;
+  margin: 50px 0 50px 0;
+}
+.modal_au_text {
+  padding: 0 0 0 10px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+.modal_au_btn {
+  width: 290px;
+  margin: auto;
+  color: #fff !important;
+  background: #8ac865 !important;
+  opacity: 1 !important;
+  border-radius: 5px;
+  padding: 12px 0 !important;
+}
+.modal_au_btn_sec {
+  width: 100%;
+  max-width: 420px;
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+}

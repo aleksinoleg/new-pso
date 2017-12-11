@@ -1,0 +1,97 @@
+body
+  background #EAF5FB
+  color #363736
+.wrapper
+  width 100%
+  max-width 655px
+  margin auto
+.header
+  margin 70px 0 0 0
+.header_text
+  text-align center
+  padding 25px 0 0 0
+  font-size 24px
+  font-weight bold
+  width calc(100% - 200px)
+.unsub_form
+  padding 20px
+  background #fff
+  margin 10px 0 0 0
+  & .l0
+    font-size 24px
+    font-weight bold
+    margin-bottom 10px
+  & .l1
+      font-size 14px
+  & .l2
+      font-size 14px
+      font-weight bold
+  & label
+    font-weight normal
+    font-size 16px
+  & form
+    margin 20px 5px
+.radio_1 {
+  vertical-align: top;
+  width: 17px;
+  height: 17px;
+  margin: 0 3px 0 0;
+}
+.radio_1 + label {
+  cursor: pointer;
+}
+.radio_1:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.radio_1:not(checked) + label {
+  position: relative;
+  padding: 0 0 0 35px;
+}
+.radio_1:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #363636;
+  border-radius: 50%;
+  background: #FFF;
+}
+.radio_1:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #006A91;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.5);
+  opacity: 0;
+  transition: all .2s;
+}
+.radio_1:checked + label:after {
+  opacity: 1;
+}
+.textarea_reason
+  width 100%
+  height 150px
+  border 1px solid #363636
+  margin 10px 0
+  padding 10px
+.unsub_submit
+  width 180px
+  border none
+  font-size 16px
+  text-align center
+  color #fff
+  padding 10px 0
+  text-decoration underline
+  background  #CF152C
+.end_form .pull-right
+  color #006A91
+  font-size 16px
+  text-decoration underline
+  padding 15px 0 0 0
