@@ -19,7 +19,9 @@ if(in_array($lang, $langs)){
     $img = new \App\Http\Controllers\Admin\ImageController(env('DEFAULT_LANG'));
 }
 ?>
+{{dd(env('DEFAULT_LANG'))}}
 
+<?die();?>
 
 @extends('layouts.default_wrapper')
 

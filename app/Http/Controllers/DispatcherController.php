@@ -50,9 +50,9 @@ class DispatcherController extends Controller
 
         if(!in_array($path, $langs)&& $path!='/'){
             if(substr($path,-1)=='/'){
-                header('HTTP/1.1 301 Moved Permanently');
-                header('Location: '.substr($path, 0,-1));
-                exit();
+//                header('HTTP/1.1 301 Moved Permanently');
+//                header('Location: '.substr($path, 0,-1));
+//                exit();
             }
         }
 
