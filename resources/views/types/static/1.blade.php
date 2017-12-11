@@ -14,7 +14,6 @@
     </style>
 @endsection
 @section('content')
-
     @if(session()->has('free_soap_expired'))
         <div class="modal fade modal_free_soap_expired">
             <div class="modal-dialog" style="height:auto; width: auto; max-width: 768px;">

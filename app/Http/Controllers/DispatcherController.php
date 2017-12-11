@@ -14,6 +14,26 @@ use Illuminate\Http\Request;
 class DispatcherController extends Controller
 {
 
+
+    public function __construct(){
+        $paths = [
+            '/de/',
+            '/en/',
+            '/es/',
+            '/fr/',
+            '/it/',
+            '/cz/',
+            '/ru/',
+            '/ua/',
+            '/he/',
+            '/'
+        ];
+        $path = $_SERVER['REQUEST_URI'];
+        if(in_array($path, $paths)){
+            $this->middleware('cacheResponse')->only('index');
+        }
+    }
+
     function api_curl_send($url, $data)
     {
         $user_agent = "Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)";
@@ -50,9 +70,9 @@ class DispatcherController extends Controller
 
         if(!in_array($path, $langs)&& $path!='/'){
             if(substr($path,-1)=='/'){
-//                header('HTTP/1.1 301 Moved Permanently');
-//                header('Location: '.substr($path, 0,-1));
-//                exit();
+                header('HTTP/1.1 301 Moved Permanently');
+                header('Location: '.substr($path, 0,-1));
+                exit();
             }
         }
 
