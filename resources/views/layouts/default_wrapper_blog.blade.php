@@ -1,3 +1,17 @@
+<?
+if(isset($page)){
+    $real_url = $page->real_url;
+    $url = $page->seo_url;
+}else{
+    $real_url = '/'.$L->lang.'/static/1';
+    $url = '/';
+}
+
+$arr_real_url = explode('/',$real_url);
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="{{$page->lang or $L->lang}}" xmlns="http://www.w3.org/1999/html">
 <head>

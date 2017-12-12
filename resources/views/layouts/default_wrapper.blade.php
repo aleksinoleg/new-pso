@@ -133,7 +133,7 @@ $arr_real_url = explode('/',$real_url);
         <div class="container">
             <div class="row">
                 <div class="l1_1">
-                    <div class="pull-right">
+                    <div class="pull-right basket_section">
                         <div class="float_left">{!! $img->__('bag.png', 'l1_1_basket') !!}</div>
                             @if ($L->lang != 'en')
                                 @if($L->lang == 'ru')

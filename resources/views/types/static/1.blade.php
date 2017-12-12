@@ -2200,6 +2200,14 @@
         $('.modal_free_order').modal('show');
     </script>
 
+
+
+    <script>
+        $( document ).ready(function(){
+            $('.basket_section').load('/en/cart .basket_section');
+        });
+    </script>
+
 @endsection
 
 
